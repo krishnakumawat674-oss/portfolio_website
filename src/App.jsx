@@ -101,14 +101,14 @@ const App = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto gap-8 max-w-6xl mt-12">
           <div
-            className="bg-[#1E293B] p-6 rounded-2xl border
+            className="flex flex-col h-full bg-[#1E293B] p-6 rounded-2xl border
    border-white/10 text-left hover:-translate-y-2 hover:border-violet-300/50 transition-all 
    duration-300"
           >
             <h2 className="text-2xl text-slate-100 tracking-tight font-bold mb-3">
               Job Tracker
             </h2>
-            <p className="text-sm text-slate-400 leading-relaxed mb-6">
+            <p className="text-sm text-slate-400 leading-relaxed mb-6 min-h-25">
               A full-stack web application to track job applications, manage
               their status, and organize the job search process.
             </p>
@@ -128,7 +128,7 @@ const App = () => {
                 href="https://job-tracker-frontend-alpha-ivory.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex bg-[#2a324b] text-[#e1e5ee] font-medium px-4 py-2 mt-4
+                className="inline-flex flex-wrap bg-[#2a324b] text-[#e1e5ee] font-medium px-4 py-2 pt-4 mt-auto
      rounded-lg hover:bg-[#143183] transition-colors duration-300"
               >
                 Live Demo
@@ -137,7 +137,7 @@ const App = () => {
                 href="https://github.com/krishnakumawat674-oss/job-tracker-frontend"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex bg-[#2a324b] text-[#e1e5ee] font-medium px-4 py-2 mt-4
+                className="inline-flex flex-wrap bg-[#2a324b] text-[#e1e5ee] font-medium px-4 py-2 pt-4 mt-auto
      rounded-lg hover:bg-[#143183] transition-colors duration-300"
               >
                 GitHub Code
@@ -145,43 +145,44 @@ const App = () => {
             </div>
           </div>
           <div
-            className="bg-[#1E293B] p-6 rounded-2xl border
+            className="flex flex-col h-full bg-[#1E293B] p-6 rounded-2xl border
    border-white/10 text-left hover:-translate-y-2 hover:border-violet-300/50 transition-all 
    duration-300"
           >
             <h2 className="text-2xl text-slate-100 tracking-tight font-bold mb-3">
-              Notes App
+              Amazon Clone
             </h2>
-            <p className="text-sm text-slate-400 leading-relaxed mb-6">
-              A full-stack application featuring REST APIs, CRUD operations, and
-              seamless frontend-backend integration.
+            <p className="text-sm text-slate-400 leading-relaxed mb-6 min-h-25">
+            A responsive Amazon Clone built to practice frontend development,
+           recreate an e-commerce interface, and improve my HTML, CSS,
+            and JavaScript skills.
             </p>
             <div className="flex flex-wrap gap-2 mb-5">
               <span className="bg-[#0F172A] text-violet-300 rounded-2xl border border-white/10 px-3 py-1.5 text-sm">
                 React
               </span>
               <span className="bg-[#0F172A] text-violet-300 rounded-2xl border border-white/10 px-3 py-1.5 text-sm">
-                Node.js
+               Tailwind CSS
               </span>
               <span className="bg-[#0F172A] text-violet-300 rounded-2xl border border-white/10 px-3 py-1.5 text-sm">
-                MongoDB
+                Vite
               </span>
             </div>
             <div className="flex flex-wrap gap-4">
               <a
-                href="#"
+                href="https://amazon-clone-react-sepia.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex bg-[#2a324b] text-[#e1e5ee] font-medium px-4 py-2 mt-4
+                className="inline-flex bg-[#2a324b] text-[#e1e5ee] font-medium px-4 py-2 pt-4 mt-auto
      rounded-lg hover:bg-[#143183] transition-colors duration-300"
               >
                 Live Demo
               </a>
               <a
-                href="#"
+                href="https://github.com/krishnakumawat674-oss/amazon-clone-react"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex bg-[#2a324b] text-[#e1e5ee] font-medium px-4 py-2 mt-4
+                className="inline-flex bg-[#2a324b] text-[#e1e5ee] font-medium px-4 py-2 pt-4 mt-auto
      rounded-lg hover:bg-[#143183] transition-colors duration-300"
               >
                 GitHub Code
@@ -189,14 +190,14 @@ const App = () => {
             </div>
           </div>
           <div
-            className="bg-[#1E293B] p-6 rounded-2xl border
+            className=" flex flex-col h-full bg-[#1E293B] p-6 rounded-2xl border
    border-white/10 text-left hover:-translate-y-2 hover:border-violet-300/50 transition-all 
    duration-300"
           >
             <h2 className="text-2xl text-slate-100 tracking-tight font-bold mb-3">
               Portfolio Website
             </h2>
-            <p className="text-sm text-slate-400 leading-relaxed mb-6">
+            <p className="text-sm text-slate-400 leading-relaxed mb-6 min-h-25">
               A responsive personal portfolio built to showcase my web
               development skills, projects, and learning journey.
             </p>
@@ -213,10 +214,11 @@ const App = () => {
             </div>
             <div className="flex flex-wrap gap-4">
               <a
-                href="#"
+                href="https://portfolio-website-six-gules-13.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex bg-[#2a324b] text-[#e1e5ee] font-medium px-4 py-2 mt-4
+                className="inline-flex flex-wrap bg-[#2a324b]
+                 text-[#e1e5ee] font-medium px-4 py-2 pt-4 mt-auto
      rounded-lg hover:bg-[#143183] transition-colors duration-300"
               >
                 Live Demo
@@ -225,7 +227,7 @@ const App = () => {
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex bg-[#2a324b] text-[#e1e5ee] font-medium px-4 py-2 mt-4
+                className="inline-flex bg-[#2a324b] text-[#e1e5ee] font-medium px-4 py-2 pt-4 mt-auto
      rounded-lg hover:bg-[#143183] transition-colors duration-300"
               >
                 GitHub Code
